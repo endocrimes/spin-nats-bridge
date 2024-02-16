@@ -1,0 +1,18 @@
+schema = 3
+
+[mod]
+  [mod."github.com/alecthomas/kong"]
+    version = "v0.8.1"
+    hash = "sha256-170mjSrLNC+0W1KhXltaa+YWYgt5gJQEcfssepcyh4E="
+  [mod."github.com/hellofresh/health-go/v5"]
+    version = "v5.5.2"
+    hash = "sha256-cC3uotzlrZhVp97DScrQPuYSwnG/xVAWXlL+O6/0udE="
+  [mod."go.opentelemetry.io/otel"]
+    version = "v1.21.0"
+    hash = "sha256-MWC1fp41z3w3Y1wlECY12Q7sLeU4PRACZEesWTmDD9E="
+  [mod."go.opentelemetry.io/otel/trace"]
+    version = "v1.21.0"
+    hash = "sha256-vjZsOaQCgTjz6WYim0YZHLnB/PC3CvTSpS97qkL2vz8="
+  [mod."golang.org/x/sync"]
+    version = "v0.6.0"
+    hash = "sha256-LLims/wjDZtIqlYCVHREewcUOX4hwRwplEuZKPOJ/HI="

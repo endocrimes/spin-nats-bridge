@@ -25,7 +25,7 @@ RUN --mount=type=cache,target=/root/.cache/go-build \
 FROM --platform=${TARGETPLATFORM} gcr.io/distroless/static:nonroot
 
 WORKDIR /
-COPY --from=builder /usr/local/bin/spin-nats-proxy .
+COPY --from=build /usr/local/bin/spin-nats-proxy .
 USER 65532:65532
 
 ENTRYPOINT ["/spin-nats-proxy"]
